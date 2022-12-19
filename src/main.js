@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         <a href="${job.url}" target="_blank" rel="noopener noreferrer">
             <img src="${job.logo}" alt="${job.company}" />
             <div class="job-info">
-                <span><b>${job.company}</b> is hiring a <b>${job.length} ${job.role}</b> to work from <b>${job.location}</b> for <b>${job.salary}</b></span>
+                <span><b>${job.company}</b> is hiring a <b>${job.length} ${job.role}</b> to work from <b>${job.location}</b> for <b>${job.compensation}</b></span>
             </div>
         </a>
     `;
